@@ -34,6 +34,10 @@ a {
     margin: 0 auto;
 }
 
+.grid {
+    display: flex;
+}
+
 header {
     position: fixed;
     top: 0;
@@ -99,4 +103,26 @@ nav > ul {
     margin: 15px 0;
     border: 0;
     background-color: #f1c40f;
+}
+
+#features {
+    margin-top: 30px;
+}
+
+#features .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 20vw;
+    color: darkorange;
+}
+
+#features .desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    width: 80vw;
+    padding: 5px;
 }
